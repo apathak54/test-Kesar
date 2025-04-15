@@ -1,5 +1,5 @@
 class JsonData:
-    POSITIVE_TEST_CASES = """
+    POSITIVE_TEST_CASES_EXAMPLE = """
     Test Case 1: Navigate to Symptom Tracker Flow
 Scenario:
 A user selects the 'Identify patterns and triggers' tile on the home screen.
@@ -151,7 +151,7 @@ Expected Results:
 The patient is shown the intro screen for symptom tracking again.
     """
 
-    NEGATIVE_TEST_CASES = """Negative Test Case 1: Modal Closed 3 Times via Close Button
+    NEGATIVE_TEST_CASES_EXAMPLE = """Negative Test Case 1: Modal Closed 3 Times via Close Button
 	•	Scenario: User closes the modal via "X" icon three times.
 	•	Precondition:
 	◦	Feature flag enabled.

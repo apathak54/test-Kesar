@@ -22,8 +22,8 @@ def generate_test_cases():
         result = process_input(
             pbi=pbi,
             additional_details=additional_details,
-            positive_test_cases=JsonData.POSITIVE_TEST_CASES,
-            negative_test_cases=JsonData.NEGATIVE_TEST_CASES
+            positive_test_cases=JsonData.POSITIVE_TEST_CASES_EXAMPLE,
+            negative_test_cases=JsonData.NEGATIVE_TEST_CASES_EXAMPLE
         )
         
         return jsonify({

@@ -22,7 +22,7 @@ def main():
     """
   
     # Process the input
-    result = process_input(pbi, JsonData.POSITIVE_TEST_CASES, JsonData.NEGATIVE_TEST_CASES)
+    result = process_input(pbi, JsonData.POSITIVE_TEST_CASES_EXAMPLE, JsonData.NEGATIVE_TEST_CASES_EXAMPLE)
     
     # Print results
     print("Positive Test Cases:")
