@@ -1,5 +1,6 @@
 from typing import Dict, List, TypedDict, Annotated
-from langchain_community.chat_models import ChatOpenAI
+# from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate
 from langgraph.graph import Graph, StateGraph
